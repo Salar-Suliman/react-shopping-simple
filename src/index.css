@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: rgba(203, 211, 222, 0.2);
+}
+.mapfishes {
+  border: 1px solid silver;
+
+  padding: 20px;
+  rgba: (0, 0, 0, 0.1);
+  background: rgba(54, 62, 73, 0.2);
+}
+.fishes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-gap: 20px;
+
+  border-radius: 5%;
+}
+.fish-card {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+  grid-gap: 10px;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-around;
+  border: solid 1px silver;
+  background: rgba(87, 159, 252445, 0.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10%;
+}
+.form-addfish {
+  max-width: 200px;
+  max-height: 200px;
+}
